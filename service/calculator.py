@@ -11,6 +11,12 @@ def mean(number_list):
 	return 0 if size == 0 else sum(number_list)/size
 
 
+def weightedmean(number_list):
+	size = len(number_list)
+
+	return 0 if size == 0 else sum(number_list)/size
+
+
 def median(number_list):
 	number_list.sort()
 

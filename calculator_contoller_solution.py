@@ -51,7 +51,6 @@ def mode():
 
 	return jsonify({'output':results}), HTTPStatus.OK
 
-
 # path = '/status', method = 'GET'
 @app.route('/status')
 def status():
